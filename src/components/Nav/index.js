@@ -8,20 +8,20 @@ function Nav(props) {
   } = props;
 
   useEffect(() => {
-    document.title = currentSection.name;
+    document.title = currentSection;
 }, [currentSection]); 
 
   return (
-    <header className="flex-row px-1">
+    <header className="d-flex flex-row justify-content-between px-1 p-4">
       <h2>
         <a data-testid="link" href="/">
           All Day Construction
         </a>
       </h2>
       <nav>
-        <ul className="flex-row">
+        <ul className="d-flex flex-row flex-wrap justify-content-around">
           {sections.map((section) => (
-            <li className={`mx-1 ${
+            <li className={`mx-3 ${
                 currentSection === section && 'navActive'
                 }`} 
                 key={section}>

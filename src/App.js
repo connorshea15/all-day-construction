@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import './App.css';
 import Nav from './components/Nav';
+import Home from './components/Home';
+import Contact from './components/Contact';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -16,6 +21,21 @@ function App() {
         setCurrentSection={setCurrentSection}
         currentSection={currentSection}
       ></Nav>
+      <img src={require(`./assets/images/downtown_phoenix.jpg`)} alt="black and white of downtown Phoenix, AZ"></img>
+
+      <main>
+        {currentSection === 'Home' ? (
+          <Home></Home>
+        ) : currentSection === 'About Us' ? (
+          <About></About>
+          
+        ) : currentSection === 'Portfolio' ? (
+          <Portfolio></Portfolio>
+        ) : (
+          <Contact></Contact>
+        )}
+      </main>
+      <Footer></Footer>
     </div>
   );
 }

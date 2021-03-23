@@ -1,11 +1,11 @@
 import React from 'react';
 
-function About() {
+function Footer() {
   return (
     <section className="my-5">
-        <h1>About</h1>
+        <h1>Footer</h1>
     </section>
   );
 }
 
-export default About;
+export default Footer;
