@@ -16,7 +16,7 @@ function Contact() {
     }
 
     return (
-        <section>
+        <section className="content">
             <h1 data-testid="contact-h1">Contact me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>

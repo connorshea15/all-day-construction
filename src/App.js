@@ -16,12 +16,14 @@ function App() {
 
   return (
     <div className="App">
-      <Nav
-        sections={sections}
-        setCurrentSection={setCurrentSection}
-        currentSection={currentSection}
-      ></Nav>
-      <img src={require(`./assets/images/downtown_phoenix.jpg`)} alt="black and white of downtown Phoenix, AZ"></img>
+      <div className="border">
+      <div className="hero">
+        <Nav
+          sections={sections}
+          setCurrentSection={setCurrentSection}
+          currentSection={currentSection}
+        ></Nav>
+      </div>
 
       <main>
         {currentSection === 'Home' ? (
@@ -36,6 +38,7 @@ function App() {
         )}
       </main>
       <Footer></Footer>
+      </div>
     </div>
   );
 }

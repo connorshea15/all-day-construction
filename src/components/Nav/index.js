@@ -12,7 +12,8 @@ function Nav(props) {
 }, [currentSection]); 
 
   return (
-    <header className="d-flex flex-row justify-content-between px-1 p-4">
+    <header className=" px-1 p-4 ">
+      <div className="header-text d-flex flex-row justify-content-between mx-auto">
       <h2>
         <a data-testid="link" href="/">
           All Day Construction
@@ -36,6 +37,7 @@ function Nav(props) {
           ))}
         </ul>
       </nav>
+      </div>
     </header>
   );
 }
