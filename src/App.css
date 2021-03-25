@@ -100,6 +100,11 @@ header {
   transform: rotate(90deg);
 }
 
+.project-photo {
+  width: 20em;
+  height: auto;
+}
+
 
 
 

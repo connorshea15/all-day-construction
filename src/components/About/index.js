@@ -16,7 +16,7 @@ function About() {
                   tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa you
                   probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life.
             </p>
-            <h4>Awesome Construction</h4>
+            <h4>Deep Roots in Arizona</h4>
             <p>
                 seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it
                   messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund
