@@ -16,24 +16,31 @@ function Contact() {
     }
 
     return (
-        <section className="content">
-            <h1 data-testid="contact-h1">Contact me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" rows="5" onBlur={handleChange} />
-                </div>
-                <button data-testid="contact-button" type="submit">Submit</button>
-            </form>
-        </section>
+    <section className="content">
+        <div className="row">
+            <div className="col-xl-1 col-xs-12">
+                <h1 className="content-title">Contact Us</h1>
+            </div>
+            <div className="col-xl-11 col-xs-12">
+                <h4>We Would Love to Hear from You!</h4>
+                <form className="mx-auto">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
     );
 }
 

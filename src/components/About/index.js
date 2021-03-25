@@ -7,7 +7,7 @@ function About() {
         <div className="col-xl-1 col-xs-12">
             <h1 className="content-title">About Us</h1>
         </div>
-        <div className="col-11">
+        <div className="col-xl-11 col-xs-12">
             <h4>Why All Day Construction?</h4>
             <p>
                 seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it

@@ -105,6 +105,10 @@ header {
   height: auto;
 }
 
+form {
+  width: 80%;
+}
+
 
 
 
@@ -116,12 +120,27 @@ header {
 //
 //
 //
-// HEADER
+// Footer
 */
 
 .footer {
   background-color: #D8C3A5;
   padding: 10px;
+}
+
+.logo {
+  height: 75px;
+  width: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .content-title {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
 }
 
 @keyframes App-logo-spin {
