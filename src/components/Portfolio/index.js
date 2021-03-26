@@ -38,7 +38,7 @@ function Portfolio() {
             <h1 className="content-title">Portfolio</h1>
         </div>
         <div className="col-xl-11 col-xs-12">
-            <h4>Buildings That Define Arizona</h4>
+            <h5 className="special-font">Buildings That Define Arizona</h5>
             <p>
                 seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it
                   messenger bag Wes Anderson Schlitz plaid Bushwick.

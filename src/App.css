@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
 .App {
   text-align: center;
-  
 }
 
 .border {
@@ -24,6 +25,9 @@
 //
 // HEADER
 */
+.special-font {
+  font-family: 'Alfa Slab One';
+}
 
 .navActive {
   color: #D8C3A5;
@@ -107,24 +111,47 @@ header {
   -o-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
+  font-family: 'Alfa Slab One';
+  color: #E85A4F;
 }
 
 .about-section {
+  float: right;
+  display: block;
+}
+
+.about-image-holder {
+  display: table;
+  height: 200px;
+  width: auto;
   position: relative;
+  float: right;
+  clear: right;
+  margin-left: 20px;
+}
+
+.about-image-holder-left {
+  display: table;
+  height: 200px;
+  width: auto;
+  position: relative;
+  float: left;
+  clear: left;
+  margin-right: 20px;
+}
+
+.about-text {
+  display: block;
+  text-align: justify;
 }
 
 .about-image {
   height: 200px;
   width: auto;
-  float: right;
-  margin-left: 10px;
-  position: absolute;
-  right: 0;
-  bottom: 25%;
 }
 
-.about-text {
-  text-align: justify;
+.about-part {
+  margin-bottom: 2em;
 }
 
 .image-stack {
@@ -149,8 +176,8 @@ header {
 }
 
 .project-photo {
-  width: 20em;
-  height: auto;
+  width: 320px;
+  height: 230px;
 }
 
 form {

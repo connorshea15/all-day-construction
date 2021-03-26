@@ -7,7 +7,7 @@ import linkedinIcon from "../../assets/images/Linkedin_Icon.png";
 function Footer() {
   return (
     <section className="footer">
-        <h1>All Day Construction</h1>
+        <h1 className="special-font">All Day Construction</h1>
         <div className="d-flex flex-wrap justify-content-center">
             <a className="mb-2" href="https://open.spotify.com" target="blank">
                 <img className="logo mx-3" src={spotifyIcon} alt="spotify logo" key="spotify-logo" />

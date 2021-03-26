@@ -12,7 +12,7 @@ function Nav(props) {
 }, [currentSection]); 
 
   return (
-    <header className=" px-1 p-4 ">
+    <header className=" px-1 p-4 special-font">
       <div className="header-text d-flex flex-row justify-content-between mx-auto">
       <h2 className="title" onClick={() => {setCurrentSection('About Us')}}>
           All Day Construction

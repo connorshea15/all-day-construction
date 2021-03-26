@@ -22,7 +22,7 @@ function Contact() {
                 <h1 className="content-title">Contact Us</h1>
             </div>
             <div className="col-xl-11 col-xs-12">
-                <h4>We Would Love to Hear from You!</h4>
+                <h5 className="special-font">We Would Love to Hear from You!</h5>
                 <form className="mx-auto" onSubmit={handleSubmit}>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Name</label>
