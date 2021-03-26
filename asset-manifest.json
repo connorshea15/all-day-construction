@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/all-day-construction/static/css/main.ead199d4.chunk.css",
+    "main.js": "/all-day-construction/static/js/main.f02bf2b0.chunk.js",
+    "main.js.map": "/all-day-construction/static/js/main.f02bf2b0.chunk.js.map",
+    "runtime-main.js": "/all-day-construction/static/js/runtime-main.5ce6bdb3.js",
+    "runtime-main.js.map": "/all-day-construction/static/js/runtime-main.5ce6bdb3.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/all-day-construction/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.2363dbf8.chunk.js": "/all-day-construction/static/js/2.2363dbf8.chunk.js",
+    "static/js/2.2363dbf8.chunk.js.map": "/all-day-construction/static/js/2.2363dbf8.chunk.js.map",
+    "static/js/3.2c310c68.chunk.js": "/all-day-construction/static/js/3.2c310c68.chunk.js",
+    "static/js/3.2c310c68.chunk.js.map": "/all-day-construction/static/js/3.2c310c68.chunk.js.map",
+    "index.html": "/all-day-construction/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/all-day-construction/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.ead199d4.chunk.css.map": "/all-day-construction/static/css/main.ead199d4.chunk.css.map",
+    "static/js/2.2363dbf8.chunk.js.LICENSE.txt": "/all-day-construction/static/js/2.2363dbf8.chunk.js.LICENSE.txt",
+    "static/media/Instagram_Icon.0d3d3eaf.png": "/all-day-construction/static/media/Instagram_Icon.0d3d3eaf.png",
+    "static/media/Spotify_Icon.cd66b8f6.png": "/all-day-construction/static/media/Spotify_Icon.cd66b8f6.png",
+    "static/media/App.css": "/all-day-construction/static/media/downtown_phoenix.b0d89ae9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ce6bdb3.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.2363dbf8.chunk.js",
+    "static/css/main.ead199d4.chunk.css",
+    "static/js/main.f02bf2b0.chunk.js"
+  ]
+}
