@@ -1,8 +1,7 @@
 {
   "name": "all-day-construction",
-  "homepage": "http://connorshea15.github.io/all-day-construction",
+  "homepage": "https://connorshea15.github.io/all-day-construction",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
