@@ -12,8 +12,8 @@ function Contact() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        console.log('Submitted!');
-    }
+        window.alert("Nothing has happened, but that does not mean something cannot be arranged");
+    };
 
     return (
     <section className="content">
@@ -23,7 +23,7 @@ function Contact() {
             </div>
             <div className="col-xl-11 col-xs-12">
                 <h4>We Would Love to Hear from You!</h4>
-                <form className="mx-auto">
+                <form className="mx-auto" onSubmit={handleSubmit}>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Name</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name" />
@@ -37,6 +37,7 @@ function Contact() {
                         <label for="exampleFormControlTextarea1">Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
         </div>

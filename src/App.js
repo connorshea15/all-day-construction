@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function App() {
 
   // I am just going to have contact shoot me down to the bottom of the page where the contact info is
-  const [sections] = useState(['Home', 'About Us', 'Portfolio', 'Contact']);
+  const [sections] = useState(['About Us', 'Portfolio', 'Contact']);
 
   const [currentSection, setCurrentSection] = useState(sections[0]);
 
@@ -26,9 +26,7 @@ function App() {
       </div>
 
       <main>
-        {currentSection === 'Home' ? (
-          <Home></Home>
-        ) : currentSection === 'About Us' ? (
+        {currentSection === 'About Us' ? (
           <About></About>
           
         ) : currentSection === 'Portfolio' ? (

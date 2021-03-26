@@ -24,7 +24,7 @@ function Portfolio() {
             description: "A fake business center that this fake construction company built"
         },
         {
-            name: "THE Tech Blog",
+            name: "Building",
             picture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8StlHOh7YQoTMfP3cQLEZx4Pbxjc4qXVDLg&usqp=CAU",
             description: "This company is not real and did not build this building."
         }
@@ -45,12 +45,19 @@ function Portfolio() {
             </p>
             <div className="d-flex flex-row flex-wrap justify-content-center">
                 {projects.map((project, i) => (
+                    <div className="image-stack m-1">
                     <img
                         src={project.picture}
                         alt={project.name}
-                        class="rounded border img-fluid project-photo m-1"
+                        class="rounded border img-fluid project-photo"
                     >
                     </img>
+                    <div class="overlay text-center">
+                        <div class="overlay-text">
+                            <h5 class="my-3"><a href={project.picture} className="live-app-text">{project.name}</a></h5>
+                        </div>
+                    </div>
+                    </div>
                 ))}
             </div>
         </div>
